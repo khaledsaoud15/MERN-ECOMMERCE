@@ -17,6 +17,7 @@ import { useSelector } from "react-redux";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Aboutus from "./pages/Aboutus";
+import Children from "./pages/Children";
 
 const App = () => {
   const user = useSelector((state) => state.user.currentUser);
@@ -49,6 +50,9 @@ const App = () => {
         </Route>
         <Route path="/about">
           <Aboutus />
+        </Route>
+        <Route path="/children">
+          <Children />
         </Route>
         <Route path="/login">{user ? <Redirect to="/" /> : <Login />}</Route>
         <Route path="/register">

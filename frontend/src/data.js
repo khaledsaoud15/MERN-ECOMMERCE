@@ -120,3 +120,24 @@ export const brands = [
     img: "https://i.pinimg.com/736x/14/a6/9a/14a69ae13f20f3c62aab8adecfb5d239.jpg",
   },
 ];
+
+export const children = [
+  {
+    id: 1,
+    title: "kids bag",
+    img: "https://i.pinimg.com/236x/c7/35/83/c735833d1eede3082ba17e07ef4a57c1.jpg",
+    bg: "#5D4157",
+  },
+  {
+    id: 2,
+    title: "special",
+    img: "https://i.pinimg.com/236x/61/6b/99/616b996dbf1777222ee9060efe495599.jpg",
+    bg: "#faaca8",
+  },
+  {
+    id: 3,
+    title: "kids shoes",
+    img: "https://i.pinimg.com/236x/34/37/61/34376161c017fd6e3b4f0d4f7fc4a1f7.jpg",
+    bg: "#5D4157",
+  },
+];

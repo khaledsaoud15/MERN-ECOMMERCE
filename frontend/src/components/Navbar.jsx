@@ -140,6 +140,7 @@ const Navbar = () => {
           <MenuLink to="/">Home</MenuLink>
           <MenuLink to="/men">Men</MenuLink>
           <MenuLink to="/women">Women</MenuLink>
+          <MenuLink to="/children">Kids</MenuLink>
           <MenuLink to="/blog">Blog</MenuLink>
           <MenuLink to="/about">About us</MenuLink>
           <MenuLink to="/contact">Contact</MenuLink>
